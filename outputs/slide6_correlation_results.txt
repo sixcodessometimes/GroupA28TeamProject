@@ -14,15 +14,3 @@ sample estimates:
        rho 
 -0.8685975 
 
-
-	Pearson's product-moment correlation
-
-data:  cwur$score and cwur$publications
-t = -28.701, df = 2198, p-value < 2.2e-16
-alternative hypothesis: true correlation is not equal to 0
-95 percent confidence interval:
- -0.5518608 -0.4910347
-sample estimates:
-       cor 
--0.5221113 
-
