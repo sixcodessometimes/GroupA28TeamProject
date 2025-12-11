@@ -1,4 +1,4 @@
-#### **Team Research and Development Project**
+### **Team Research and Development Project**
 
 
 
@@ -8,7 +8,7 @@ Group: Group A28
 
 
 
-##### **Dataset Information** 
+### **Dataset Information** 
 
 Dataset Topic: University Rankings
 
@@ -16,13 +16,13 @@ Dataset ID: ds276
 
 
 
-##### **Our research Question is:**
+### **Our research Question is:**
 
 "Is there a difference in the mean CWUR (Center for World University Rankings) Score between universities from Asia and universities from Europe?"
 
 
 
-##### **Group Members**
+### **Group Members**
 
 * Adeleye Francis Adewuyi
 * Khant Zwe Naing
