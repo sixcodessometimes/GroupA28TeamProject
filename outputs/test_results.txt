@@ -1,7 +1,3 @@
-Statistical Test Used: Mann-Whitney U Test 
-Test Statistic: 146660.5 
-P-value: 1.159091e-19 
-
-Shapiro-Wilk Normality Test:
-Asia: W = 0.436639 , p = 2.029965e-38 
-Europe: W = 0.4169946 , p = 1.431624e-43 
+Statistical Test Used: Mann-Whitney U Test (Wilcoxon rank-sum) 
+Test Statistic: 176208 
+P-value: 1.679935e-15 

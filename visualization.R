@@ -23,9 +23,9 @@ europe_countries <- c("United Kingdom", "Germany", "France", "Italy", "Spain", "
 # Step 4 – Add Region column and filter only Asia and Europe
 cwur <- cwur %>%
   mutate(Region = case_when(
-    country %in% asia_countries ~ "Asia",
+    country %in% asia_countries   ~ "Asia",
     country %in% europe_countries ~ "Europe",
-    TRUE ~ "Other"
+    TRUE                          ~ "Other"
   )) %>%
   filter(Region %in% c("Asia", "Europe"))
 
@@ -46,20 +46,31 @@ box <- ggplot(cwur, aes(x = Region, y = score, fill = Region)) +
 
 ggsave("outputs/boxplot.png", plot = box, width = 7, height = 5)
 
-# Step 7 – Histogram with normal curve overlay (dependent variable only)
+
+
+# Step 7 – Histogram with normal curve overlay (FREQUENCY + overlay)
+
+# Compute values needed to scale the normal curve to frequencies
+mean_score <- mean(cwur$score)
+sd_score   <- sd(cwur$score)
+n_scores   <- nrow(cwur)
+bins       <- 30
+binwidth   <- (max(cwur$score) - min(cwur$score)) / bins
+
 hist <- ggplot(cwur, aes(x = score)) +
-  geom_histogram(aes(y = ..density..),
-                 bins = 30,
+  # Frequency histogram (counts on y-axis)
+  geom_histogram(bins = bins,
                  fill = "skyblue",
                  color = "white") +
-  stat_function(fun = dnorm,
-                args = list(mean = mean(cwur$score),
-                            sd   = sd(cwur$score)),
-                color = "blue",
-                linewidth = 1.2) +
-  labs(title = "Histogram of CWUR Scores (Asia & Europe)",
+  # Normal curve scaled to match frequencies: density * n * binwidth
+  stat_function(
+    fun = function(x) dnorm(x, mean = mean_score, sd = sd_score) * n_scores * binwidth,
+    color = "orange",
+    linewidth = 1.2
+  ) +
+  labs(title = "Histogram of CWUR Scores (Asia & Europe) with Normal Curve",
        x = "CWUR Score",
-       y = "Density") +
+       y = "Frequency") +
   theme_minimal(base_size = 12) +
   theme(
     panel.background = element_rect(fill = "white", colour = NA),
