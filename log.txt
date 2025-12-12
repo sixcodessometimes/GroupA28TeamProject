@@ -1,3 +1,58 @@
+commit 02e2c084dcee9ddcfa99f86fc27bd21ff6cf0d85
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 15:36:21 2025 +0000
+
+    added references lis
+
+commit c877fd70845191196acf3435016a7a2d375d6816
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 14:06:01 2025 +0000
+
+    added references list to the final report
+
+commit aa336bb1d2694ba46e4ebf742c312c45b97e1b4c
+Merge: 265d378 f347b43
+Author: Khant Zwe Naing <63854143+kn24abc@users.noreply.github.com>
+Date:   Fri Dec 12 13:44:01 2025 +0000
+
+    Merge pull request #1 from lemonmercy/main
+    
+    Revise readme with dataset and project details
+
+commit 265d378a8942ebb5100ccecd66cb8af72d39ee9f
+Author: Muhammad Taha Mirza <mm24aom@herts.ac.uk>
+Date:   Fri Dec 12 11:37:41 2025 +0000
+
+    Section6.2.txt
+
+commit f347b43b427eff9990dabaadc94940931ea45f4b
+Author: lemonmercy <mi25abp@herts.ac.uk>
+Date:   Fri Dec 12 11:32:46 2025 +0000
+
+    Section5.3-5.4.txt
+
+commit cfb84a7a1b3374e844c3847138c773a86ef6d150
+Merge: 9da37ca d348f5f
+Author: lemonmercy <mi25abp@herts.ac.uk>
+Date:   Fri Dec 12 10:38:44 2025 +0000
+
+    Merge branch 'main' of https://github.com/lemonmercy/GroupA28TeamProject
+    merge updated readme
+
+commit 9da37cacef9cf20918e1000bf3a94d7ac5bf305f
+Author: lemonmercy <mi25abp@herts.ac.uk>
+Date:   Fri Dec 12 10:38:03 2025 +0000
+
+    created text folder for section 5.3 5.4 disussion
+
+commit d348f5fabd51eba1dbc945cc02a0d3e962674294
+Author: lemonmercy <mi25abp@herts.ac.uk>
+Date:   Fri Dec 12 10:23:10 2025 +0000
+
+    Revise readme with dataset and project details
+    
+    Updated the readme to include dataset information and project overview.
+
 commit c9ed4bfd831158e666e413018aa35c7e15ff5f96
 Author: KhantZweNaing <kn24abc@herts.ac.uk>
 Date:   Fri Dec 12 02:22:33 2025 +0000
