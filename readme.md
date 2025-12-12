@@ -1,36 +1,38 @@
-### **Team Research and Development Project**
+# Dataset Information
 
+**Dataset Topic:** University Rankings  
+**Dataset ID:** ds276
 
+---
 
-7COM1079–2025
+## Research Question
+**“Is there a difference in the mean CWUR (Center for World University Rankings) score between universities from Asia and universities from Europe?”**
 
-Group: Group A28
+This project investigates whether regional differences exist in global university performance based on CWUR scores. By comparing universities from Asia and Europe, we aim to determine if the difference in mean scores is statistically significant.
 
+---
 
+## Project Overview
+This repository contains all analyses, code, documentation, and supporting materials for our **Team Research & Development** project.
 
-### **Dataset Information** 
+Our work includes:
 
-Dataset Topic: University Rankings
+- Exploring and understanding the CWUR dataset (2012–2015)  
+- Cleaning and preparing the data  
+- Formulating hypotheses based on the research question  
+- Performing statistical tests to compare mean CWUR scores between Asia and Europe  
+- Creating visualizations to support our findings  
+- Compiling results into a final research report  
 
-Dataset ID: ds276
+---
 
+## How to Start Working on This Project
 
+### **1. Fork the Repository**
+- Click **Fork** on GitHub to create your own copy of the repository.
+- This lets you contribute without affecting the main repo.
 
-### **Our research Question is:**
-
-"Is there a difference in the mean CWUR (Center for World University Rankings) Score between universities from Asia and universities from Europe?"
-
-
-
-### **Group Members**
-
-* Adeleye Francis Adewuyi
-* Khant Zwe Naing
-* Muhammad Taha Mirza
-* Mercy Toluwani Idowu
-* Jattin Kumar
-
-
-
-This repository contains the work and materials for our Team Research \& Development project. The focus is on analyzing global university ranking data to compare CWUR scores across two major regions: Asia and Europe. The intent here is to find out if the difference between the two groups is statistically significant.
-
+### **2. Clone Your Fork**
+```bash
+git clone <your-fork-url>
+cd <repo-name>
