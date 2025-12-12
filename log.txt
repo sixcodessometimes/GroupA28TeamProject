@@ -1,3 +1,15 @@
+commit c4e541bfe3af1d3f57f162aa6f8fd1e19bd23cbc
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 16:36:14 2025 +0000
+
+    updated document
+
+commit f20d53963da173196d35556ca0a39c12d33477b7
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 15:39:51 2025 +0000
+
+    fixing document format and update git log
+
 commit 02e2c084dcee9ddcfa99f86fc27bd21ff6cf0d85
 Author: KhantZweNaing <kn24abc@herts.ac.uk>
 Date:   Fri Dec 12 15:36:21 2025 +0000
