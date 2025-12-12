@@ -1,0 +1,200 @@
+commit c9ed4bfd831158e666e413018aa35c7e15ff5f96
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 02:22:33 2025 +0000
+
+    deleted old testing plots and made some changes in final code file
+
+commit 57365fc29389d4a2af4faaa022105b4909669ab8
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 00:24:19 2025 +0000
+
+    created Mann–Whitney U test (Wilcoxon rank-sum test), FinalVLSCode.R
+
+commit 4b1a9624ce791fc9a1dfbd90c834d9d580849fb0
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 00:14:39 2025 +0000
+
+    created histogram with Normal Curve Overlay, FinalVLSCode.R
+
+commit 54fe704982e5b9a1018e1c58d29874045dbd2102
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 00:10:02 2025 +0000
+
+    created boxplot and saved it to outputs folder, FinalVlsCode.R
+
+commit 66aaadd93f10d6baead2f0a743da98119973a150
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Fri Dec 12 00:07:58 2025 +0000
+
+    created region variables and an ordered factor in finalvls code
+
+commit 6187fd8ccb73b158bc54b1c3a1e91c39e64f4019
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 22:47:10 2025 +0000
+
+    Deleted unnecessary file
+
+commit 1deab8c106ba0d735c78e8aa6ad3c3f20ff9a3d2
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 22:45:06 2025 +0000
+
+    Did some testing in testing.R, Produced a final code, done data cleaning by grouping countries into two regions
+
+commit c3c83c8180a17ddc575029bbaccc8b8bc9724930
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 20:11:03 2025 +0000
+
+    updated report file to section 5
+
+commit 9f493cd21701bb1b525fede455543019d5047ce3
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 18:33:21 2025 +0000
+
+    updated report file to section 4.2
+
+commit 81e7cf2eff4764f76eb124d14ce76d3a207f7627
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 17:07:26 2025 +0000
+
+    added demo feedback folder which also include our first question which was rejected, the reason we had to another research question
+
+commit 4b3b14ec19c5d002a44ce4b46c41f0ae2587c8b9
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 16:48:05 2025 +0000
+
+    code was changed to use package ggplot which is under tidyverse make the plots more clear
+
+commit f608f0d99c274d5ef984c2780cff7bfbeae18cc4
+Author: Adeleye Adewuyi <aa24auo@herts.ac.uk>
+Date:   Thu Dec 11 14:33:53 2025 +0100
+
+    Deleted readme.txt
+
+commit 5c2f1250b52ef6e642ea655e05e135e68fe3a953
+Author: sixcodessometimes <aa24auo@herts.ac.uk>
+Date:   Thu Dec 11 14:31:33 2025 +0100
+
+    Updated the Heading on Readme
+
+commit 3d186a3988e24475e4f24d821bb9ac0b9843879a
+Author: sixcodessometimes <aa24auo@herts.ac.uk>
+Date:   Thu Dec 11 14:30:21 2025 +0100
+
+    Updated Readme.md
+
+commit 0e381ca8074c158bc9e444a5014b2c7d3f3b1a74
+Author: sixcodessometimes <aa24auo@herts.ac.uk>
+Date:   Thu Dec 11 14:27:55 2025 +0100
+
+    Changed Readme file from .txt to .md
+
+commit f1a1165dd5495969cb8884aa7d37f8812352ec99
+Author: sixcodessometimes <aa24auo@herts.ac.uk>
+Date:   Thu Dec 11 14:03:27 2025 +0100
+
+    Up-to-date Readme file
+
+commit d70b800ba1193c4f39c80cbcbd02ea59f56e7608
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 10:26:31 2025 +0000
+
+    testing values in plots
+
+commit 61c0685e695aa7cca946d5d89d590e8bfef0de37
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 07:30:09 2025 +0000
+
+    report file updated
+
+commit 0ff037a5447880877aa92871a02bab19d2e0ef71
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 04:57:42 2025 +0000
+
+    added git brief instruction file for other team members
+
+commit 367ed285394903e500372aad5a143ed635b80d2c
+Author: jadstrike <jadstrike@gmail.com>
+Date:   Thu Dec 11 04:34:05 2025 +0000
+
+    name changes to the file '7COM1079_Final report_GpA28.docx
+
+commit 6409b0067e9e2af809de600af2b4ecfc7fee39ce
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 04:26:14 2025 +0000
+
+    report file added
+
+commit 635a4a8ef33b8d9ab495228f89fd93b1b9a37dee
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Thu Dec 11 04:22:03 2025 +0000
+
+    visualization changes related to comparison of means after getting feedback
+
+commit 0d6561558218b808ce085109011541e0b0872d04
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Wed Nov 26 14:06:32 2025 +0000
+
+    updated code
+
+commit d690debcf7b29e1ea7efd31ae5477fe54c4ef3d4
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Wed Nov 26 03:28:36 2025 +0000
+
+    visualization slide added
+
+commit 789ce5d7544432c30a5d77373573a1ed323bd902
+Merge: ae21528 fabe21d
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Wed Nov 26 01:32:55 2025 +0000
+
+    Merge branch 'main' of https://github.com/sixcodessometimes/TeamProj
+    
+    merge readme file
+
+commit ae215287c17e82d6092457274e26269fb617517c
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Wed Nov 26 01:32:23 2025 +0000
+
+    initial visualization
+
+commit fabe21d62a74a00767096c83f932128f801e1cc2
+Author: Muhammad Taha Mirza <mm24aom@herts.ac.uk>
+Date:   Wed Nov 26 01:18:23 2025 +0000
+
+    added name
+
+commit 02bf03874d8412773d4c99ddb7e08a22ecde6d76
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Tue Nov 25 22:28:14 2025 +0000
+
+    added name
+
+commit 44a59a41c271bd11484249abbc95d9e1d94728fd
+Author: sixcodessometimes <aa24auo@herts.ac.uk>
+Date:   Tue Nov 25 23:21:28 2025 +0100
+
+    Add Names
+
+commit fed05a06efa2f75de32a5558d2eeb029a47a101b
+Author: Dare <adetomisinoluwaleye@gmail.com>
+Date:   Tue Nov 25 23:17:10 2025 +0100
+
+    Add Names
+
+commit 9592ab587942a32fe19420a7ec86ec8147be6b2a
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Tue Nov 25 21:52:53 2025 +0000
+
+    added readme
+
+commit 17f791e7c310d62c1f181d48a64aef2ffbec52fb
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Tue Nov 25 21:50:16 2025 +0000
+
+    research question slide added
+
+commit 2dcfbc4a135feaf71f037d073f5d9602b43b2ac5
+Author: KhantZweNaing <kn24abc@herts.ac.uk>
+Date:   Tue Nov 25 21:21:04 2025 +0000
+
+    initial_setup
