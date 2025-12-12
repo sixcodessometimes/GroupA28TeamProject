@@ -87,3 +87,42 @@ legend("topright",
        fill   = colors)
 
 dev.off()
+
+
+# 6. HISTOGRAM + NORMAL CURVE OVERLAY (frequency on y-axis)
+
+
+# Mean and SD for the combined Asia/Europe scores
+m <- mean(asia_europe$score)
+s <- sd(asia_europe$score)
+
+png("outputs/hist_normal_curve.png", width = 1200, height = 900, res = 150)
+
+par(mar = c(5, 6, 5, 4))
+
+# Histogram with frequency on y-axis
+h <- hist(asia_europe$score,
+          breaks   = 30,
+          freq     = TRUE,  # frequency, NOT density
+          main     = "Histogram of CWUR Scores with Normal Curve Overlay",
+          xlab     = "Overall CWUR Score (0–100)",
+          ylab     = "Frequency",
+          col      = "lightblue",
+          las      = 1,
+          cex.lab  = 1.2,
+          cex.axis = 1.0,
+          cex.main = 1.3)
+
+# Normal curve scaled to match frequencies
+x_vals <- seq(min(asia_europe$score),
+              max(asia_europe$score),
+              length.out = 200)
+
+y_vals <- dnorm(x_vals, mean = m, sd = s)
+
+# scale density to frequency scale of the histogram
+y_vals <- y_vals * diff(h$breaks)[1] * length(asia_europe$score)
+
+lines(x_vals, y_vals, lwd = 2, col = "orange")
+
+dev.off()
