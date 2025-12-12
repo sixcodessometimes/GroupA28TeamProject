@@ -56,3 +56,34 @@ print(table(asia_europe$Region))
 # 4. Create outputs folder (if it does not exist)
 # ---------------------------
 if (!dir.exists("outputs")) dir.create("outputs")
+
+
+# 5. BOXPLOT: CWUR Score by Region
+
+png("outputs/boxplot.png", width = 1000, height = 1200, res = 150)
+
+
+par(mar = c(5, 6, 5, 4))
+
+colors <- c("#ff7771", "#00bfc3")
+
+boxplot(score ~ Region,
+        data     = asia_europe,
+        main     = "University Rankings: CWUR Scores by Region",
+        xlab     = "Region",
+        ylab     = "Overall CWUR Score (0–100)",
+        col      = colors,
+        notch    = FALSE,
+        ylim     = c(40, 100),
+        outline  = TRUE,
+        las      = 1,
+        cex.lab  = 1.2,
+        cex.axis = 1.0,
+        cex.main = 1.3,
+        boxwex   = 1.0)   # make the boxes wider for clearer quartiles
+
+legend("topright",
+       legend = c("Asia", "Europe"),
+       fill   = colors)
+
+dev.off()
